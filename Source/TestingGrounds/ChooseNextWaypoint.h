@@ -21,4 +21,7 @@ protected:
 	//Allows drop down in uneral task node
 	UPROPERTY(EditAnywhere, Category = "Blackboard")
 	struct FBlackboardKeySelector IndexKey;
+
+	UPROPERTY(EditAnywhere, Category = "Blackboard")
+	struct FBlackboardKeySelector Waypointkey;
 };
